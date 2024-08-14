@@ -29,45 +29,45 @@
     <div class="drop">
       <button class="nav-btn">&#9776</button>
       <div class="nav-list">
-            <a href="homepage.php" title="Домашняя страница"><ion-icon name="home-outline"></ion-icon>Дом</a>
-            <a href="../index.php" title="Информация о нас" class="active"><ion-icon name="checkmark-done-outline"></ion-icon>О нас</a>              
-            <a href="company.php" title="Наши партнёры">Партнёры</a>
-            <a href="coord.php" title="Наши координаты">Координаты</a>
-            <a href="technic.php" title="Технические характеристики">Характеристики</a>
+            <a href="homepage.html" title="Домашняя страница"><ion-icon name="home-outline"></ion-icon>Дом</a>
+            <a href="../index.html" title="Информация о нас" class="active"><ion-icon name="checkmark-done-outline"></ion-icon>О нас</a>              
+            <a href="company.html" title="Наши партнёры">Партнёры</a>
+            <a href="coord.html" title="Наши координаты">Координаты</a>
+            <a href="technic.html" title="Технические характеристики">Характеристики</a>
 
         <li class="nav-list dropdown">
              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Галлерея&nbspA</a>
           <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="galera1.php">Галлерея&nbsp№1</a></li>
-             <li><a class="dropdown-item" href="galera2.php">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
-             <li><a class="dropdown-item" href="galera3.php">Галлерея&nbsp№3</a></li>
+             <li><a class="dropdown-item" href="galera1.html">Галлерея&nbsp№1</a></li>
+             <li><a class="dropdown-item" href="galera2.html">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
+             <li><a class="dropdown-item" href="galera3.html">Галлерея&nbsp№3</a></li>
           </ul>
           </li>
           <li class="nav-list dropdown">
              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Галлерея&nbspB</a>
           <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="galere1.php">Галлерея&nbsp№1</a></li>
-             <li><a class="dropdown-item" href="galere2.php">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
-             <li><a class="dropdown-item" href="galere3.php">Галлерея&nbsp№3</a></li>
+             <li><a class="dropdown-item" href="galere1.html">Галлерея&nbsp№1</a></li>
+             <li><a class="dropdown-item" href="galere2.html">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
+             <li><a class="dropdown-item" href="galere3.html">Галлерея&nbsp№3</a></li>
           </ul>
           </li>
           <li class="nav-list dropdown">
              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Галлерея&nbspС</a>
           <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="galeru1.php">Галлерея&nbsp№1</a></li>
-             <li><a class="dropdown-item" href="galeru2.php">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
-             <li><a class="dropdown-item" href="galeru3.php">Галлерея&nbsp№3</a></li>
+             <li><a class="dropdown-item" href="galeru1.html">Галлерея&nbsp№1</a></li>
+             <li><a class="dropdown-item" href="galeru2.html">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
+             <li><a class="dropdown-item" href="galeru3.html">Галлерея&nbsp№3</a></li>
           </ul>
           </li>
           <li class="nav-list dropdown">
              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Галлерея&nbspD</a>
           <ul class="dropdown-menu">
-             <li><a class="dropdown-item" href="galerw1.php">Галлерея&nbsp№1</a></li>
-             <li><a class="dropdown-item" href="galerw2.php">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
-             <li><a class="dropdown-item" href="galerw3.php">Галлерея&nbsp№3</a></li>
+             <li><a class="dropdown-item" href="galerw1.html">Галлерея&nbsp№1</a></li>
+             <li><a class="dropdown-item" href="galerw2.html">Галлерея&nbsp№2</a></li>    <!--  <li><hr class="dropdown-divider"></li>     -->
+             <li><a class="dropdown-item" href="galerw3.html">Галлерея&nbsp№3</a></li>
           </ul>
           </li>
-            <a href="../private/parol.php" title="Секретная страница"><ion-icon name="key-outline"></ion-icon>Ats</a>
+            <a href="../private/parol.html" title="Секретная страница"><ion-icon name="key-outline"></ion-icon>Ats</a>
             <a href="#" title="Подключение шрифтов" class="menu-btn">Шрифты</a> 
 
          </div>
