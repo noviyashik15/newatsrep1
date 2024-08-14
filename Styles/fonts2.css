@@ -1,0 +1,77 @@
+@font-face {
+	font-family: "Kraft Mono Regular";
+	src: url("../fonts/kraft-mono-regular/kraft-mono-regular.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/kraft-mono-regular/kraft-mono-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/kraft-mono-regular/kraft-mono-regular.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/kraft-mono-regular/kraft-mono-regular.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/kraft-mono-regular/kraft-mono-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/kraft-mono-regular/kraft-mono-regular.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/kraft-mono-regular/kraft-mono-regular.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Russo One";
+	src: url("../fonts/russo-one/russo-one.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/russo-one/russo-one.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/russo-one/russo-one.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/russo-one/russo-one.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/russo-one/russo-one.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/russo-one/russo-one.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/russo-one/russo-one.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "SapphireС";
+	src: url("../fonts/sapphires/sapphires.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/sapphires/sapphires.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/sapphires/sapphires.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/sapphires/sapphires.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/sapphires/sapphires.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/sapphires/sapphires.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/sapphires/sapphires.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Kaligrafica";
+	src: url("../fonts/kaligrafica/kaligrafica.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/kaligrafica/kaligrafica.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/kaligrafica/kaligrafica.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/kaligrafica/kaligrafica.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/kaligrafica/kaligrafica.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/kaligrafica/kaligrafica.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/kaligrafica/kaligrafica.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+.ab5{ font-family: "Kraft Mono Regular"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab6{ font-family: "Russo One"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab7{ font-family: "SapphireС"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab8{ font-family: "Kaligrafica"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+
+.but5{ color: #fff; }
+.but6{ color: #fff; }
+.but7{ color: #fff; }
+.but8{ color: #fff; }
+
+/*
+font-family: "Kraft Mono Regular";
+font-family: "Russo One";
+font-family: "SapphireС";
+font-family: "Kaligrafica";
+*/

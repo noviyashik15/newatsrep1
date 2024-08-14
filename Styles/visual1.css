@@ -1,0 +1,41 @@
+.shadow { display: inline-block;
+  left: 5px;
+  position: relative; 
+  background: linear-gradient(#4e3d3d, #e2d6d6);
+  z-index: 1;
+}
+.shadow {
+  position: relative;
+  width: 590px;
+  height: 60px; 
+  text-align: center;
+  background: linear-gradient(#fff, #262626);
+}
+.shadow:before, .shadow:after {
+  content: '';
+  position: absolute; 
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;  
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+  background-size: 500%; 
+  z-index: -1;
+  animation: amimate 30s ease infinite; 
+}
+
+.shadow:after {
+  filter: blur(25px);
+}
+
+@keyframes amimate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 300% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

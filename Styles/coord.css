@@ -1,0 +1,41 @@
+body { background: linear-gradient(90deg, rgb(174, 216, 4), rgb(225, 237, 179));
+}
+.spiskoord {
+    align-content: center;
+}
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {display: inline-block; 
+    background-color: rgb(125, 134, 123);}    
+.spiskoordt{ /* font-family: "Victoriana"; */
+    font-size: large;
+}
+.circle{ display: inline-block; width: 28px; height: 28px; background: #840a0a; border-radius: 50%; animation: pulse 0.5s ease-in-out infinite; }
+    @keyframes pulse{
+        0% { opacity: 1;
+            transform: scale(1);
+        }        
+        50% { opacity: 0.5;
+            transform: scale(0.25);
+        }        
+        100% { opacity: 1;
+            transform: scale(1);
+        }        
+}
+.uehal{ position: absolute; 
+    font-size: 24px;
+    color: #b30d0d;;
+    padding-left: 3rem;
+}
+.vsem{padding-left: 2.5rem;}
+    
+    /*
+    .frame{ 
+        display: inline-block;
+        margin: 5px, auto;
+        padding: 12px 10px 3px 3px;
+        border: 10px dashed blue;
+        border-radius: 20px;
+        background-color: aqua;
+    }
+    */

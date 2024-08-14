@@ -1,0 +1,27 @@
+*{  margin: 0; padding: 0;  }
+body {
+    background: linear-gradient(90deg, rgb(176, 235, 80), rgb(214, 238, 175));
+}
+p{ font-size: small; }
+li{ font-size: large;  }  
+h1 {text-align: center;  border-bottom: 2px solid brown;}
+h2 {text-align: center;}
+.row{margin-bottom: 5px;}
+.container-n{ margin-bottom: 15px;
+    margin-left: 30px;
+    border-bottom: 2px solid brown;
+}    
+
+.container-n{ font-family: "Ossem Rounded";
+    font-size: 1rem;
+}
+/*
+.frame{ display: inline-block;
+    margin: 5px, auto;
+    padding: 12px 10px 3px 3px;
+    border: 10px dashed blue;
+    border-radius: 20px;
+    background-color: aqua;
+    margin-left: 50px;
+}
+*/

@@ -1,0 +1,21 @@
+body {  margin: 5px;
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+h1 {text-align: center;}
+h2 {text-align: center;}
+h3 {display: inline-block; 
+    background-color: rgb(125, 134, 123);} 
+.contain { display: flex; width: 770px;
+    margin: 0 auto;
+    background-size: contain;
+}
+.poehali{position: absolute;
+    display: inline-flex;
+    padding-left: 15px;
+}
+
+/*
+h6 { border: 10px 10px 10px 10px rgb(174, 97, 124) dashed;
+}
+*/

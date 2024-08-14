@@ -1,0 +1,80 @@
+.butn{padding-left: 1.3rem; background-color: rgb(209, 230, 128); }
+.butnshr{background-color: aquamarine;}
+#butn1, #butn2, #butn3, #butn4,
+#butn5, #butn6, #butn7, #butn8
+{ color:black; background-color: aquamarine; }
+/*
+.checkbox__inp{padding-top: 9px;}
+*/
+@font-face {
+	font-family: "Ossem Rounded";
+	src: url("../fonts/ossem-rounded/ossem-rounded.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/ossem-rounded/ossem-rounded.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	    url("../fonts/ossem-rounded/ossem-rounded.otf") format("opentype"), /* Open Type Font */
+	    url("../fonts/ossem-rounded/ossem-rounded.svg") format("svg"), /* Legacy iOS */
+	    url("../fonts/ossem-rounded/ossem-rounded.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/ossem-rounded/ossem-rounded.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/ossem-rounded/ossem-rounded.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Comfortaa";
+	src: url("../fonts/comfortaa/comfortaa.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/comfortaa/comfortaa.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/comfortaa/comfortaa.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/comfortaa/comfortaa.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/comfortaa/comfortaa.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/comfortaa/comfortaa.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/comfortaa/comfortaa.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Victoriana";
+	src: url("../fonts/victoriana/victoriana.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/victoriana/victoriana.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/victoriana/victoriana.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/victoriana/victoriana.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/victoriana/victoriana.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/victoriana/victoriana.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/victoriana/victoriana.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Parizhel";
+	src: url("../fonts/parizhel/parizhel.eot"); /* IE9 Compat Modes */
+	src: url("../fonts/parizhel/parizhel.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("../fonts/parizhel/parizhel.otf") format("opentype"), /* Open Type Font */
+		url("../fonts/parizhel/parizhel.svg") format("svg"), /* Legacy iOS */
+		url("../fonts/parizhel/parizhel.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("../fonts/parizhel/parizhel.woff") format("woff"), /* Modern Browsers */
+		url("../fonts/parizhel/parizhel.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+.ab1{ font-family: "Comfortaa"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab2{ font-family: "Ossem Rounded"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab3{ font-family: "Victoriana"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+.ab4{ font-family: "Parizhel"; 
+	font-size: 1.5rem;
+	background: linear-gradient(90deg, rgb(9, 107, 109), rgb(188, 237, 239));
+}
+
+/*
+.colorBg{background-color: rgb(180, 212, 229);}
+font-family: "Comfortaa";
+font-family: "Ossem Rounded";
+font-family: "Victoriana";
+font-family: "Parizhel";
+*/		

@@ -1,0 +1,93 @@
+[mytitle]{cursor: pointer;}
+[mytitle]:after{content: '';
+transition: .2s;}
+[mytitle]:hover::after{
+    width: 550px;
+    display: block;
+    content: attr(mytitle);
+    background-color: antiquewhite;
+    z-index: 7;
+}
+.apparat{display: flex;margin: 25px;}
+.apparatzg { margin: 0px; 
+    background-color: rgb(125, 134, 123);
+    font-size: large; font-weight: bold; letter-spacing: .5px;
+}  
+
+.navbar { z-index: 3;
+    display: flex;
+    background-color: rgba(191, 192, 189, 0.919);
+    font-size: large;
+    position: sticky;
+    top: 0;
+}
+.nav-list { display: flex;}
+.nav-list a{ 
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+}
+.nav-list a:hover
+{   color: rgb(55, 55, 172);
+    background-color: rgb(210, 234, 173);
+}
+.nav-list a.active {background-color: #8bd259;}
+h3 {display: inline-block; margin-top: 15px; margin-left: 15px; 
+    background-color: rgb(125, 134, 123);}  
+.nav-btn{ display: none;
+    z-index: 5;
+}
+.dropdown-menu{ display: none; }
+:hover>.dropdown-menu{ 
+    display: inline-block;
+    transition: .5s linear;
+    display: initial;
+    margin-top: 4rem;
+}
+.dropdown-item{background-color: aquamarine;}
+
+@media (max-width: 1000px) {
+    .nav-btn{
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 3px;
+        border: none;
+        background-color: rgb(3, 4, 1);
+        color: white;   
+        display:  block; 
+        cursor: pointer;   
+    } 
+    .nav-list{
+        display: none;
+    }
+    .drop:hover .nav-list{
+        display: block;
+        position: absolute;
+        background-color: rgb(41, 65, 6);
+    }
+}
+.frame{ display: flex;
+    width: 780px;
+    margin: 0 auto;
+    padding: 15px 0px 5px 0px;
+    border: 10px dashed blue;
+    border-radius: 20px;
+    background-color: aqua;
+}
+.mob{
+    display: none;
+}
+@media (max-width: 880px)
+{   .frame { display: none;
+           }
+}
+@media (max-width: 880px)
+{   .mob {display: block;}    
+}
+.page{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
